@@ -15,7 +15,6 @@ let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/sate
 	accessToken: API_KEY
 });
 
-<<<<<<< HEAD
 
 // Dark Layer
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -24,8 +23,6 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 	accessToken: API_KEY
 });
 
-=======
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
 	center: [40.7, -94.5],
@@ -36,32 +33,21 @@ let map = L.map('mapid', {
 // Create a base layer that holds all three maps.
 let baseMaps = {
   "Streets": streets,
-<<<<<<< HEAD
   "Satellite": satelliteStreets,
   "Dark": dark
-=======
-  "Satellite": satelliteStreets
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
 };
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
 let tectonic = new L.LayerGroup();
-<<<<<<< HEAD
 let majorearthquake = new L.LayerGroup();
-=======
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
 
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
   "Earthquakes": allEarthquakes,
-<<<<<<< HEAD
   "Tectonic Plates": tectonic,
   "Major Earthquake" : majorearthquake
-=======
-  "Tectonic Plates": tectonic
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
 };
 
 // Then we add a control to the map that will allow the user to change which
@@ -134,7 +120,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // Then we add the earthquake layer to our map.
   allEarthquakes.addTo(map);
 
-<<<<<<< HEAD
 
 
 
@@ -201,8 +186,6 @@ majorearthquake.addTo(map);
 
 
 
-=======
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
   // Here we create a legend control object.
 let legend = L.control({
   position: "bottomright"
@@ -234,11 +217,7 @@ legend.onAdd = function() {
 
   // Finally, we our legend to the map.
   legend.addTo(map);
-<<<<<<< HEAD
 
-=======
-});
->>>>>>> 6e7d7c681ec100f237b406d5dee4e0ec7403cd56
 
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.

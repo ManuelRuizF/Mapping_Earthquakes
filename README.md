@@ -13,7 +13,7 @@ With these layers added, we created 3 map styles you can visualize with:
 - Satellite Map
 - Dark Map  
 ## Results  
-Here are the 3 map visualizations with all the data  
+Here are the 3 map visualizations with all the data.  
 
 **STREET MAP**
 ![street](https://github.com/ManuelRuizF/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/streetmap.PNG)  

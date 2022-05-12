@@ -11,7 +11,7 @@ There are 3 layers we added to the map.
 With these layers added, we created 3 map styles you can visualize with:  
 - Street Map
 - Satellite Map
-- Dark Ma  
+- Dark Map  
 ## Results  
 Here are the 3 map visualizations with all the data.  
 

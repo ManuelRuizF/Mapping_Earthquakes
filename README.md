@@ -1,7 +1,7 @@
 # Mapping_Earthquakes
 
 ## Overview
-In this project we are creating a mapping show the data gathered for a year on earthquakes. We created an interactive map that shows the earthquakes as circles. The color and size of the earthquake is directly related to the magnitude of it.
+In this project we are creating a mapping show the data gathered for a year on earthquakes. We created an interactive map that shows the earthquakes as circles. The color and size of the earthquake is directly related to the magnitude of it....
 ## Analysis
 There are 3 layers we added to the map.
 - **Earthquakes**
